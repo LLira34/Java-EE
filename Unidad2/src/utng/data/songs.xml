@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <songs>
-	
-	
-<song>
-<id>lbl001</id>
-<name>Red Lights</name>
-<artist>Tiesto</artist>
-<album>A Town Called Paradise</album>
-<releaseDate>2014</releaseDate>
-<gender>Dance/electronic</gender>
-</song>
+	<song>
+		<id>lbl001</id>
+		<name>Red Lights</name>
+		<artist>Tiesto</artist>
+		<album>A Town Called Paradise</album>
+		<releaseDate>2014</releaseDate>
+		<gender>Dance/electronic</gender>
+	</song>
 </songs>
