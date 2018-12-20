@@ -3,23 +3,23 @@
 	<form action="SongController">
 		<div class="field">
 			<label class="label">Song Name:</label>
-			<input class="input" type="text" name="name" value="${song.name}">
+			<input class="input" type="text" name="name" value="${song.name}" required="required">
 			<br>
 			
 			<label class="label">Artist:</label>
-			<input class="input" type="text" name="artist" value="${song.artist}">
+			<input class="input" type="text" name="artist" value="${song.artist}" required="required">
 			<br>
 			
 			<label class="label">Album:</label>
-			<input class="input" type="text" name="album" value="${song.album}">
+			<input class="input" type="text" name="album" value="${song.album}" required="required">
 			<br>
 			
 			<label class="label">Release Date:</label>
-			<input class="input" type="text" name="releaseDate" value="${song.releaseDate}">
+			<input class="input" type="text" name="releaseDate" value="${song.releaseDate}" required="required">
 			<br>
 			
 			<label class="label">Gender:</label>
-			<input class="input" type="text" name="gender" value="${song.gender}">
+			<input class="input" type="text" name="gender" value="${song.gender}" required="required">
 			<br><br>
 			
 			<input class="button is-primary" type="submit" name="btnSave" id="btnSave" value="Save">
